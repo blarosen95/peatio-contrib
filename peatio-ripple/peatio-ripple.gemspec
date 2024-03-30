@@ -23,11 +23,10 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "activesupport", "~> 6.1.0"
+  spec.add_dependency "activesupport", "~> 7.1.3"
   spec.add_dependency "peatio", ">= 3.1.1"
   spec.add_dependency "faraday", "~> 1.10"
   spec.add_dependency "memoist", "~> 0.16.0"
-  spec.add_dependency "better-faraday", "~> 2.0.1"
   spec.add_dependency 'net-http-persistent', '~> 4.0.1'
 
   spec.add_development_dependency "bundler", "~> 2.4.7"
